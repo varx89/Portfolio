@@ -1,5 +1,5 @@
 import React from 'react';
-import { TypeAnimation } from 'react-type-animation';
+// import { TypeAnimation } from 'react-type-animation';
 import { SocialIcon } from 'react-social-icons';
 import './Body.css';
 
@@ -12,15 +12,9 @@ const Body = () => {
             <div className='h-100 d-flex align-items-center justify-content-center'>
                 <h1>Andrei Varcus</h1>
                 <div className='type-animation'>
-                    <span>I'm a &nbsp;</span>
+                    <span>I'm a Developer, Designer, Freelancer</span>
                     <div className='float-animation'>
-                        <TypeAnimation cursor={false} sequence={
-                        [
-                        'Developer', 2000,
-                        'Designer', 2000,
-                        'Freelancer', 2000,
-                        ]
-                        } speed={60} repeat={Infinity} />
+                        
                     </div>
                     
                 </div>
