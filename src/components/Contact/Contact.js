@@ -51,7 +51,7 @@ const Contact = () => {
           <footer className="bg-light text-center text-lg-start">
           <div className="text-center p-3" style={{background: 'rgba(0, 0, 0, 0.2)'}}>
             {'© 2020 Copyright:'}
-            <a className="text-dark" href="#">Andrei Varcus</a>
+            <a className="text-dark" href="https://eclectic-eclair-43a9fd.netlify.app/">Andrei Varcus</a>
           </div>
         </footer>
         </div>
