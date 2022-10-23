@@ -22,8 +22,8 @@ const Portfolio = () => {
               <div className="card-body">
                 <h5 className="card-title">Portfolio</h5>
                 <p className="card-text"></p>
-                <a href="" className="btn btn-outline-primary btn-sm">URL</a> &nbsp;
-                <a href="" className="btn btn-outline-primary btn-sm">GitHUB</a>
+                <a href="https://eclectic-eclair-43a9fd.netlify.app/" className="btn btn-outline-primary btn-sm">URL</a> &nbsp;
+                <a href="https://eclectic-eclair-43a9fd.netlify.app/" className="btn btn-outline-primary btn-sm">GitHUB</a>
               </div>
             </div>
             </div>
@@ -33,8 +33,8 @@ const Portfolio = () => {
               <div className="card-body">
                 <h5 className="card-title">FaceRecognition Frontend</h5>
                 <p className="card-text"></p>
-                <a href="" className="btn btn-outline-primary btn-sm">URL</a> &nbsp;
-                <a href="" className="btn btn-outline-primary btn-sm">GitHUB</a>
+                <a href="https://eclectic-eclair-43a9fd.netlify.app/" className="btn btn-outline-primary btn-sm">URL</a> &nbsp;
+                <a href="https://eclectic-eclair-43a9fd.netlify.app/" className="btn btn-outline-primary btn-sm">GitHUB</a>
               </div>
               </div>
             </div>
@@ -44,8 +44,8 @@ const Portfolio = () => {
               <div className="card-body">
                 <h5 className="card-title">FaceRecognition Api</h5>
                 <p className="card-text"></p>
-                <a href="" className="btn btn-outline-primary btn-sm">URL</a> &nbsp;
-                <a href="" className="btn btn-outline-primary btn-sm">GitHUB</a>
+                <a href="https://eclectic-eclair-43a9fd.netlify.app/" className="btn btn-outline-primary btn-sm">URL</a> &nbsp;
+                <a href="https://eclectic-eclair-43a9fd.netlify.app/" className="btn btn-outline-primary btn-sm">GitHUB</a>
               </div>
             </div>
             </div>

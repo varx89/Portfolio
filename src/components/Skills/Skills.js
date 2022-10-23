@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Skills.css';
-import {Animated} from "react-animated-css";
+// import {Animated} from "react-animated-css";
 
 
 const Skills = () => {
@@ -10,7 +10,7 @@ const Skills = () => {
       <div className='hero2'>
       <div className='h-100 d-flex align-items-center justify-content-center'>
 
-      <Animated animationIn="backInDown" animationOut="fadeOut" isVisible={true}>
+      
       <div>
       <div className='container-sm'>
         <div className="section-title">
@@ -60,7 +60,7 @@ const Skills = () => {
 
       </div>
       </div>
-      </Animated>
+    
 
       
       </div>
