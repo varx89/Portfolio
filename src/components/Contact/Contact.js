@@ -41,7 +41,7 @@ const Contact = () => {
 
                     <div className="col-lg-5">
                         <div className="map">
-                            {/* <iframe title='Contact us' src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Calea%20Aurel%20Vlaicu%20202+(Andrei%20Varcus)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameBorder="0" style={{border: '0'}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe> */}
+                            <iframe title='Contact us' src="https://maps.google.com/maps?q=Nelu%20aristide%20dragomir%204&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="400" frameBorder="0" style={{border: '0'}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                         </div>
                     </div>
                 </div>
