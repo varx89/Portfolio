@@ -34,3 +34,5 @@
     font-size: 35px;
     color: #4f93ca;
 }
+.social-icons grow { transition: all .2s ease-in-out; }
+.social-icons grow:hover { transform: scale(1.5); }

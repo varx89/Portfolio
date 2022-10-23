@@ -1,6 +1,11 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Skills.css';
+import 'animate.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import 'animate.css/animate.min.css';
+
+
 // import {Animated} from "react-animated-css";
 
 
@@ -10,7 +15,8 @@ const Skills = () => {
       <div className='hero2'>
       <div className='h-100 d-flex align-items-center justify-content-center'>
 
-      
+      <AnimationOnScroll animateIn="animate__fadeInUp"> 
+
       <div>
       <div className='container-sm'>
         <div className="section-title">
@@ -60,6 +66,7 @@ const Skills = () => {
 
       </div>
       </div>
+      </AnimationOnScroll>
     
 
       

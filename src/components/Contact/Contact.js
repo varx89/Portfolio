@@ -1,10 +1,12 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Contact.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Contact = () => {
     return (
       <div>
+      <AnimationOnScroll animateIn="animate__fadeInUp"> 
         <div className="contact-us">
             <div className="container">
                 <div className="row">
@@ -39,7 +41,7 @@ const Contact = () => {
 
                     <div className="col-lg-5">
                         <div className="map">
-                            <iframe title='Contact us' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571289.733943155!2d76.08560099999998!3d29.058775699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e4a4b98404f57%3A0x75ffae70833e8448!2sShahbad%2C%20Haryana%20136135!5e0!3m2!1sen!2sin!4v1594195370933!5m2!1sen!2sin" width="100%" height="350" frameBorder="0" style={{border: '0'}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+                            {/* <iframe title='Contact us' src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Calea%20Aurel%20Vlaicu%20202+(Andrei%20Varcus)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameBorder="0" style={{border: '0'}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe> */}
                         </div>
                     </div>
                 </div>
@@ -55,6 +57,7 @@ const Contact = () => {
           </div>
         </footer>
         </div>
+        </AnimationOnScroll>
       </div>
         
     )
