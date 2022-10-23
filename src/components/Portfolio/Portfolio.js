@@ -29,7 +29,7 @@ const Portfolio = () => {
                 <h5 className="card-title">Portfolio</h5>
                 <p className="card-text"></p>
                 <a href="https://github.com/varx89/Portfolio" className="btn btn-outline-primary btn-sm">GitHUB</a> &nbsp;
-                <a href="https://eclectic-eclair-43a9fd.netlify.app/" className="btn btn-outline-primary btn-sm">URL</a>
+                <a href="https://drey-portfolio.netlify.app/" className="btn btn-outline-primary btn-sm">URL</a>
               </div>
             </div>
             </div>
