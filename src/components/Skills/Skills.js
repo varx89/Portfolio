@@ -18,17 +18,14 @@ import mysql_icon from './../../assets/images/mysql-icon.png';
 
 const Skills = () => {
     return (
-      <div>
-      <div className='hero2'>
-      <div className='h-100 d-flex align-items-center justify-content-center'>
-
+      <div className='box m-1 mt-5'>
       <AnimationOnScroll animateIn="animate__fadeInUp"> 
 
       <div className='mb-5'>
       <div className='container-sm mb-5'>
         <div className="section-title">
           <h2>Skills</h2>
-            <p className='skills'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p className='skills'>I've got some skillz!!!</p>
         </div>
 
         <div className="row">
@@ -43,7 +40,7 @@ const Skills = () => {
             </div>
           </div>
       </div>
-      <p style={{margin: '40px'}}></p>
+      <p style={{marginTop: '40px'}}></p>
       <div className="row">
           <div className="col-sm mt-3">
             <div className="progress">
@@ -74,23 +71,18 @@ const Skills = () => {
       </div>
       </div>
 
-      <div style={{paddingTop: '50px'}}></div>
-      <div className='d-flex justify-content-center opacity-50'>
-        <img src={html_icon} className='me-3' style={{width: '70px', height: '100%'}} alt='HTML' />
-        <img src={css_icon} className='me-3' style={{width: '70px', height: '100%'}} alt='HTML' />
-        <img src={javascript_icon} className='me-3' style={{width: '70px', height: '100%'}} alt='HTML' />
-        <img src={react_icon} className='me-3' style={{width: '70px', height: '100%'}} alt='HTML' />
-        <img src={python_icon} className='me-3' style={{width: '70px', height: '100%'}} alt='HTML' />
-        <img src={photoshop_icon} className='me-3' style={{width: '70px', height: '100%'}} alt='HTML' />
-        <img src={mysql_icon} className='me-3' style={{width: '70px', height: '100%'}} alt='HTML' />
+      
+      <div className='container text-center opacity-50'>
+        <img src={html_icon} className='me-3 mt-2' style={{width: '70px', height: '100%'}} alt='HTML' />
+        <img src={css_icon} className='me-3 mt-2' style={{width: '70px', height: '100%'}} alt='HTML' />
+        <img src={javascript_icon} className='me-3 mt-2' style={{width: '70px', height: '100%'}} alt='HTML' />
+        <img src={react_icon} className='me-3 mt-2' style={{width: '70px', height: '100%'}} alt='HTML' />
+        <img src={python_icon} className='me-3 mt-2' style={{width: '70px', height: '100%'}} alt='HTML' />
+        <img src={photoshop_icon} className='me-3 mt-2' style={{width: '70px', height: '100%'}} alt='HTML' />
+        <img src={mysql_icon} className='me-3 mt-2' style={{width: '70px', height: '100%'}} alt='HTML' />
       </div>
       </AnimationOnScroll>
-    
-
-      
-      </div>
-      </div>
-      </div>
+    </div>
         
     )
 }

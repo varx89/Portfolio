@@ -10,7 +10,7 @@ const Contact = () => {
         <section className="d-flex justify-content-center justify-content-lg-end p-4 border-bottom">
 
 
-            <div className='ms-5'>
+            <div className='box align-middle'>
             <span>Get connected:</span>
             <SocialIcon network="facebook" url="https://www.facebook.com/andrei.varcus/" style={{ height: 25, width: 25, margin: 10}} />
             <SocialIcon network="instagram" url="https://www.instagram.com/andrei.varcus/" style={{ height: 25, width: 25, margin: 10}} />
@@ -20,7 +20,7 @@ const Contact = () => {
 
         </section>
 
-        <section className="">
+        <section>
             <div className="container text-center text-md-start mt-5">
 
                 <div className="row mt-3">

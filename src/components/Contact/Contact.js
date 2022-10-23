@@ -5,15 +5,14 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Contact = () => {
     return (
-      <div>
+      <div className='flex mt-5'>
       <AnimationOnScroll animateIn="animate__fadeInUp"> 
-        <div className="contact-us">
             <div className="container">
                 <div className="row">
                     
                         <div className="contact-title">
                             <h2>Contact Us</h2>
-                            <p style={{margin: '20'}}></p>
+                        
                         </div>
                         <div className="col-md-7">
                     </div>
@@ -46,7 +45,6 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
     </AnimationOnScroll>
         
         

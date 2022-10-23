@@ -10,7 +10,7 @@ import './Portfolio.css';
 
 const Portfolio = () => {
     return (
-      <div style={{margin: '40px'}}>
+      <div className='flex mt-5'>
       <AnimationOnScroll animateIn="animate__fadeInUp"> 
       <div className='container'>
       <div className="section-title">
