@@ -18,16 +18,20 @@ import mysql_icon from './../../assets/images/mysql-icon.png';
 
 const Skills = () => {
     return (
-      <div className='box m-1 mt-5'>
+      <div className='flex pt-5 pb-5'>
       <AnimationOnScroll animateIn="animate__fadeInUp"> 
-
-      <div className='mb-5'>
-      <div className='container-sm mb-5'>
-        <div className="section-title">
-          <h2>Skills</h2>
-            <p className='skills'>I've got some skillz!!!</p>
+      <div className='container pt-5'>
+        <div className='row col-sm mb-5'>
+          <div className="skills-title">
+              <h2>Skills</h2>
+              <p className='skills'>I've got some skillz!!!</p>
+          </div>
         </div>
+      
+      </div> 
 
+      <div className='pb-5'>
+      <div className='container-sm mb-5'>
         <div className="row">
           <div className="col-sm mt-3">
             <div className="progress">

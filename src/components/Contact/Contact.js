@@ -8,14 +8,13 @@ const Contact = () => {
       <div className='flex mt-5'>
       <AnimationOnScroll animateIn="animate__fadeInUp"> 
             <div className="container">
-                <div className="row">
+                <div className="row col-sm mb-5">
                     
                         <div className="contact-title">
-                            <h2>Contact Us</h2>
+                            <h2>Contact Me</h2>
                         
                         </div>
-                        <div className="col-md-7">
-                    </div>
+                        
                 </div>
                 <div className="row">
                     <div className="col-lg-7">

@@ -13,12 +13,14 @@ const Portfolio = () => {
       <div className='flex mt-5'>
       <AnimationOnScroll animateIn="animate__fadeInUp"> 
       <div className='container'>
-      <div className="section-title">
-          <h2>Portfolio</h2>
-      </div>
-      </div>
+        <div className='row col-sm mb-5'>
+          <div className="portfolio-title">
+              <h2>Portfolio</h2>
+          </div>
+        </div>
       
-      
+      </div>
+
         <div id="gallery">
           <div className="container">
             <div className="row">

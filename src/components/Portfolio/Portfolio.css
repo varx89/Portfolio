@@ -1,0 +1,19 @@
+.portfolio-title {
+    width: max-content;
+    margin: auto;
+  }
+  .portfolio-title h2 {
+    color: #45505b;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px dotted #6a7393;
+    padding-bottom: 10px;
+    
+  }
+  .portfolio-title p {
+    color: #e8e8e8;
+    margin-bottom: 30px;
+  }
