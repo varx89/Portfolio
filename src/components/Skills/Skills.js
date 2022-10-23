@@ -19,12 +19,12 @@ const Skills = () => {
         </div>
 
         <div className="row">
-          <div className="col-sm">
+          <div className="col-sm mt-3">
             <div className="progress">
               <span className='pbar'>HTML</span><div className="progress-bar" role="progressbar" aria-label="HTML" style={{width: '85%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
             </div>
           </div>
-          <div className="col-sm">
+          <div className="col-sm mt-3">
             <div className="progress">
               <span className='pbar'>REACT</span><div className="progress-bar" role="progressbar" aria-label="REACT" style={{width: '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
             </div>
@@ -32,12 +32,12 @@ const Skills = () => {
       </div>
       <p style={{margin: '40px'}}></p>
       <div className="row">
-          <div className="col-sm">
+          <div className="col-sm mt-3">
             <div className="progress">
               <span className='pbar'>CSS</span><div className="progress-bar" role="progressbar" aria-label="CSS" style={{width: '85%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
             </div>
           </div>
-          <div className="col-sm">
+          <div className="col-sm mt-3">
             <div className="progress">
               <span className='pbar'>NODE</span><div className="progress-bar" role="progressbar" aria-label="NODE" style={{width: '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
             </div>
@@ -46,12 +46,12 @@ const Skills = () => {
 
       <p style={{margin: '40px'}}></p>
       <div className="row">
-          <div className="col-sm">
+          <div className="col-sm mt-3">
             <div className="progress">
               <span className='pbar'>PHP</span><div className="progress-bar" role="progressbar" aria-label="PHP" style={{width: '85%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
             </div>
           </div>
-          <div className="col-sm">
+          <div className="col-sm mt-3">
             <div className="progress">
               <span className='pbar'>PHOTOSHOP</span><div className="progress-bar" role="progressbar" aria-label="PHOTOSHOP" style={{width: '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
             </div>
