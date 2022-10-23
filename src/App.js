@@ -5,6 +5,7 @@ import Body from './components/Body/Body';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
 
       <section id='contact'>
         <Contact />
+      </section>
+
+      <section id='footer'>
+        <Footer />
       </section>
       
     </div>

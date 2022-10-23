@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import portfolio_img from '../../assets/images/portfolio.png';
 import facerecon_img from '../../assets/images/facerecon.png';
+import robofriends_img from '../../assets/images/robofriends.png';
 import api_img from '../../assets/images/api.png';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -51,6 +52,17 @@ const Portfolio = () => {
                 <p className="card-text"></p>
                 <a href="https://github.com/varx89/facerecognitionbrain-api" className="btn btn-outline-primary btn-sm">GitHUB</a> &nbsp;
                 <a href="https://rocky-bayou-01851.herokuapp.com/" className="btn btn-outline-primary btn-sm">URL</a>
+              </div>
+            </div>
+            </div>
+            <div className="col-lg-4 mb-4">
+            <div className="card">
+              <img src={robofriends_img} alt="" className="card-img-top" />
+              <div className="card-body">
+                <h5 className="card-title">Robofriends</h5>
+                <p className="card-text"></p>
+                <a href="https://github.com/varx89/Robofriends" className="btn btn-outline-primary btn-sm">GitHUB</a> &nbsp;
+                <a href="https://varx89.github.io/Robofriends/" className="btn btn-outline-primary btn-sm">URL</a>
               </div>
             </div>
             </div>
