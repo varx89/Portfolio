@@ -4,10 +4,12 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Contact.css';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-
+// const YOUR_SERVICE_ID = 'service_pl4hjcj';
+// const YOUR_TEMPLATE_ID = 'template_wl5366e';
+// const YOUR_PUBLIC_KEY = 'peeRHsFREPqvhRtdg';
 const YOUR_SERVICE_ID = process.env.YOUR_SERVICE_ID;
-const YOUR_TEMPLATE_ID = process.env.YOUR_TEMPLATE_ID;
-const YOUR_PUBLIC_KEY = process.env.YOUR_PUBLIC_KEY;
+const YOUR_TEMPLATE_ID = process.env.YOUR_SERVICE_ID;
+const YOUR_PUBLIC_KEY = process.env.YOUR_SERVICE_ID;
 
 
 const Contact = () => {
@@ -27,6 +29,10 @@ const Contact = () => {
     }
     const onChangeMessage = (e) =>{
         setContact({...contact, message: e.target.value})
+    }
+
+    const emailjssend = (YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, templateParams, YOUR_PUBLIC_KEY) => {
+        return true;
     }
     
     
@@ -53,7 +59,7 @@ const Contact = () => {
                     alertmsg.style.display = "block";
                     setTimeout(() => {
                         alertmsg.style.display = "none";
-                    }, 5000)
+                    }, 10000)
                   } else {
                     alertmsg.style.display = "none";
                   }
