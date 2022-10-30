@@ -13,7 +13,7 @@ const YOUR_SERVICE_ID = process.env.REACT_SERVICE_ID;
 const YOUR_TEMPLATE_ID = process.env.REACT_TEMPLATE_ID;
 const YOUR_PUBLIC_KEY = env.REACT_PUBLIC_KEY;
 
-console.log(YOUR_PUBLIC_KEY);
+console.log(YOUR_PUBLIC_KEY, process.env.REACT_PUBLIC_KEY);
 
 
 const Contact = () => {
