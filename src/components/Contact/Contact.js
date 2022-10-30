@@ -30,10 +30,6 @@ const Contact = () => {
     const onChangeMessage = (e) =>{
         setContact({...contact, message: e.target.value})
     }
-
-    const emailjssend = (YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, templateParams, YOUR_PUBLIC_KEY) => {
-        return true;
-    }
     
     
     const sendEmail = (event) => {
