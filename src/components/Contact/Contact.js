@@ -5,16 +5,6 @@ import './Contact.css';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
-// const YOUR_SERVICE_ID = 'service_pl4hjcj';
-// const YOUR_TEMPLATE_ID = 'template_wl5366e';
-// const YOUR_PUBLIC_KEY = 'peeRHsFREPqvhRtdg';
-const YOUR_SERVICE_ID = process.env.REACT_SERVICE_ID;
-const YOUR_TEMPLATE_ID = process.env.REACT_TEMPLATE_ID;
-const YOUR_PUBLIC_KEY = process.env.REACT_PUBLIC_KEY;
-
-console.log(YOUR_PUBLIC_KEY, process.env.REACT_PUBLIC_KEY, YOUR_TEMPLATE_ID);
-
-
 const Contact = () => {
     
     const initialValues = {
@@ -37,7 +27,6 @@ const Contact = () => {
     
     const sendEmail = (event) => {
         event.preventDefault();
-        console.log(YOUR_PUBLIC_KEY);
         
         if (contact.user_name || contact.user_email  || contact.message) {
         //    console.log(contact);
@@ -49,7 +38,7 @@ const Contact = () => {
                 reply_to: contact.user_email
             }
 
-           emailjs.send(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, templateParams, YOUR_PUBLIC_KEY)
+           emailjs.send('service_pl4hjcj', 'template_wl5366e', templateParams, 'peeRHsFREPqvhRtdg')
            .then(result => {
                 console.log(result.text)
                 const alertmsg = document.getElementById("sent");
