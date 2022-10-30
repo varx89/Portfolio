@@ -11,6 +11,8 @@ const YOUR_SERVICE_ID = process.env.YOUR_SERVICE_ID;
 const YOUR_TEMPLATE_ID = process.env.YOUR_SERVICE_ID;
 const YOUR_PUBLIC_KEY = process.env.YOUR_SERVICE_ID;
 
+console.log(YOUR_PUBLIC_KEY);
+
 
 const Contact = () => {
     
@@ -34,7 +36,7 @@ const Contact = () => {
     
     const sendEmail = (event) => {
         event.preventDefault();
-        
+        console.log(YOUR_PUBLIC_KEY);
         
         if (contact.user_name || contact.user_email  || contact.message) {
         //    console.log(contact);
