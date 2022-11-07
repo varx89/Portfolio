@@ -4,6 +4,7 @@ import portfolio_img from '../../assets/images/portfolio.png';
 import facerecon_img from '../../assets/images/facerecon.png';
 import robofriends_img from '../../assets/images/robofriends.png';
 import api_img from '../../assets/images/api.png';
+import realtor_img from '../../assets/images/realtor.jpg';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 import './Portfolio.css';
@@ -26,12 +27,24 @@ const Portfolio = () => {
             <div className="row">
             <div className="col-lg-4 mb-4">
             <div className="card">
-              <img src={portfolio_img} alt="PorFolio" className="card-img-top" />
+              <img src={portfolio_img} alt="PortFolio" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">Portfolio</h5>
                 <p className="card-text"></p>
                 <a href="https://github.com/varx89/Portfolio" className="btn btn-outline-primary btn-sm">GitHUB</a> &nbsp;
                 <a href="https://drey-portfolio.netlify.app/" className="btn btn-outline-primary btn-sm">URL</a>
+              </div>
+            </div>
+            </div>
+            <div className="col-lg-4 mb-4">
+
+            <div className="card">
+              <img src={realtor_img} alt="Real Estate" className="card-img-top" />
+              <div className="card-body">
+                <h5 className="card-title">Real Estate Website - Started Project</h5>
+                <p className="card-text"></p>
+                <a href="https://ongoing#" className="btn btn-outline-primary btn-sm">GitHUB</a> &nbsp;
+                <a href="https://ongoing#" className="btn btn-outline-primary btn-sm">URL</a>
               </div>
             </div>
             </div>
