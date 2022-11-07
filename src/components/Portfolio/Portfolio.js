@@ -25,6 +25,19 @@ const Portfolio = () => {
         <div id="gallery">
           <div className="container">
             <div className="row">
+
+            <div className="col-lg-4 mb-4">
+            <div className="card">
+              <img src={realtor_img} alt="Real Estate" className="card-img-top" />
+              <div className="card-body">
+                <h5 className="card-title">Real Estate Website - Started Project</h5>
+                <p className="card-text"></p>
+                <a href="https://github.com/varx89/real-estate-website" className="btn btn-outline-primary btn-sm">GitHUB</a> &nbsp;
+                <a href="https://ongoing#" className="btn btn-outline-primary btn-sm">URL</a>
+              </div>
+            </div>
+            </div>
+
             <div className="col-lg-4 mb-4">
             <div className="card">
               <img src={portfolio_img} alt="PortFolio" className="card-img-top" />
@@ -36,18 +49,7 @@ const Portfolio = () => {
               </div>
             </div>
             </div>
-            <div className="col-lg-4 mb-4">
-
-            <div className="card">
-              <img src={realtor_img} alt="Real Estate" className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">Real Estate Website - Started Project</h5>
-                <p className="card-text"></p>
-                <a href="https://ongoing#" className="btn btn-outline-primary btn-sm">GitHUB</a> &nbsp;
-                <a href="https://ongoing#" className="btn btn-outline-primary btn-sm">URL</a>
-              </div>
-            </div>
-            </div>
+            
           <div className="col-lg-4 mb-4">
           <div className="card">
               <img src={facerecon_img} alt="" className="card-img-top" />
@@ -59,6 +61,7 @@ const Portfolio = () => {
               </div>
               </div>
             </div>
+
             <div className="col-lg-4 mb-4">
             <div className="card">
               <img src={api_img} alt="" className="card-img-top" />
@@ -70,6 +73,7 @@ const Portfolio = () => {
               </div>
             </div>
             </div>
+            
             <div className="col-lg-4 mb-4">
             <div className="card">
               <img src={robofriends_img} alt="" className="card-img-top" />
