@@ -30,10 +30,10 @@ const Portfolio = () => {
             <div className="card">
               <img src={realtor_img} alt="Real Estate" className="card-img-top" />
               <div className="card-body">
-                <h5 className="card-title">Real Estate Website - Started Project</h5>
+                <h5 className="card-title">Real Estate Website</h5>
                 <p className="card-text"></p>
                 <a href="https://github.com/varx89/real-estate-website" className="btn btn-outline-primary btn-sm">GitHUB</a> &nbsp;
-                <a href="https://ongoing#" className="btn btn-outline-primary btn-sm">URL</a>
+                <a href="https://http://real-estate-website-nine.vercel.app" className="btn btn-outline-primary btn-sm">URL</a>
               </div>
             </div>
             </div>
